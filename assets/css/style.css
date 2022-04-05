@@ -6,12 +6,13 @@
 
 .landing {
   background: linear-gradient(180deg, rgba(53, 67, 219, 0.3) 0%, rgba(250, 93, 127, 0.3) 100%);  
-  height: 100vh;
+  height: 80vh;
   font-family: Circular Std;
 }
 
 .landing-content {
   padding: 50px 70px;
+  margin: 3em 0;
 }
 
 .landing-content h1 {
@@ -32,6 +33,7 @@
 .download-icons {
   display: flex;
   gap: 1em;
+  margin: 4em 0;
 }
 
 .playstore {
