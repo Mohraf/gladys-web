@@ -143,6 +143,10 @@ input[type=checkbox] {
   background: #F9F9FF;
 }
 
+.purple {
+  background: rgba(53, 67, 219, 0.25);
+}
+
 .footer {
   font-family: Circular Std;
 }
