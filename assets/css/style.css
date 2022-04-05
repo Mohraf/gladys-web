@@ -142,6 +142,33 @@ input[type=checkbox] {
   background: #F9F9FF;
 }
 
+.footer-bottom {
+  display: flex;
+  gap: 33em;
+  padding: 2em;
+}
+
+.footer-icons {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.social-icon {
+  height: 25px;
+}
+
+.footer-icons li {
+  list-style: none;
+  padding: 10px 10px;
+}
+
+.copyright {
+  align-items: center;
+  justify-content: center;
+  padding: 1em;
+}
+
 
 @media (max-width: 768px) {
   .menu {
