@@ -29,6 +29,16 @@
   margin-bottom: 2em;
 }
 
+.download-icons {
+  display: flex;
+  gap: 1em;
+}
+
+.playstore {
+  width: 150px;
+  height: 41px;
+}
+
 .menu-bar {
   background: transparent;
   padding: 0 50px;
@@ -139,6 +149,7 @@ input[type=checkbox] {
   font-size: 15px;
   line-height: 22px;
   color: #847C7C;
+  margin-bottom: 1em;
 }
 
 .section-heading {
@@ -148,6 +159,7 @@ input[type=checkbox] {
   font-size: 32px;
   line-height: 130%;
   color: #000000;
+  margin-bottom: 1em;
 }
 
 .section-paragraph {
