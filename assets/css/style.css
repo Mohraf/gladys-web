@@ -92,7 +92,7 @@ input[type=checkbox] {
   flex-wrap: wrap;
   gap: 5rem;
   /* height: 25rem; */
-  padding: auto 50px;
+  padding: 50px 50px;
 }
 
 .section > * { flex: 1; }
@@ -109,7 +109,7 @@ input[type=checkbox] {
   display: flex;
   align-items: center;
   justify-content: center;
-  padding-top: 3.5rem;
+  padding-top: 2.5rem;
 }
 
 .section-head {
@@ -163,10 +163,11 @@ input[type=checkbox] {
 }
 
 .footer-top {
-  padding: 20px 0;
-  margin: 30px 40px;
+  margin: 50px 0;
+  /* margin: 30px 40px; */
   display: flex;
   justify-content: space-around;
+  height: 30vh;
 }
 
 .footer-top img {
