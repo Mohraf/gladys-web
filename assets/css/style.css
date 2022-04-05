@@ -92,6 +92,7 @@ input[type=checkbox] {
   flex-wrap: wrap;
   gap: 5rem;
   /* height: 25rem; */
+  padding: auto 50px;
 }
 
 .section > * { flex: 1; }
