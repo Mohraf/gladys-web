@@ -183,6 +183,7 @@ input[type=checkbox] {
 
 .footer {
   font-family: Circular Std;
+  margin-top: 0.5em;
 }
 
 .money {
@@ -277,5 +278,65 @@ input[type=checkbox] {
 
   input[type=checkbox]:checked ~ .menu{
     display: block;
+  }
+
+  .landing {
+    height: 100vh;
+  }
+
+  .section-item {
+    padding: 2em 0;
+  }
+
+  .section-item img {
+    width: auto;
+    height: auto;
+  }
+
+  .footer {
+    display: block;
+    text-align: center;
+  }
+
+  .footer-bottom {
+    display: block;
+    /* width: 100vw; */
+  }
+
+  .footer-top {
+    display: block;
+    height: auto;
+  }
+
+  .copyright p {
+    text-align: center;
+  }
+}
+
+@media (max-width: 410px) {
+  .landing {
+    height: 150vh;
+  }
+
+  .section-item {
+    padding: 2em 0;
+  }
+  
+  .footer-bottom {
+    flex-direction: column;
+  }
+
+  .section {
+    padding: 10px 10px;
+  }
+
+  .section-item img {
+    width: 300px;
+    height: 200px;
+  }
+
+  .landing-content {
+    padding: 10px 30px;
+    margin: 3em 0;
   }
 }
