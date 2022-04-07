@@ -1,6 +1,13 @@
 @import url(//fonts.cdnfonts.com/css/poppins);
 @import url(//fonts.cdnfonts.com/css/circular-std);
 
+.landing-content h3 {
+  font-weight: 400;
+  font-size: 64px;
+  line-height: 125%;
+  color: #000000;
+  margin-bottom: 1em;
+}
 
 .everyone {
   padding: 50px 50px;
@@ -205,6 +212,7 @@
 
 .wallet-right img {
   margin: 1em;
+  height: 50px;
 }
 
 .security {
@@ -247,11 +255,11 @@
 .security-right > div {
   background: #FFFFFF;
   padding: 1em;
-  margin: 1em;
+  margin: 2em;
   border-radius: 5px;
   display: flex;
   flex-wrap: wrap;
-  width: 20vw;
+  width: 15vw;
 }
 
 .security-right h6 {
@@ -271,4 +279,65 @@
   font-size: 16px;
   line-height: 20px;
   color: #686868;
+}
+
+@media (max-width: 1030px) {
+  .security-right > div {
+    width: 40vw;
+  }
+}
+
+@media (max-width: 960px) {
+  .wallet {
+    display: block;
+  }
+
+  .wallet-left {
+    text-align: center;
+    margin-bottom: 1em;
+  }
+
+  .payments-right {
+    display: none;
+  }
+
+  .everyone-bottom {
+    display: flex;
+    justify-content: space-around;
+  }
+
+}
+
+@media (max-width: 690px) {
+  .everyone-bottom {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+}
+
+@media (max-width: 530px) {
+  .wallet-left{
+    display: none;
+  }
+
+  .philosophy {
+    display: block;
+  }
+
+  .philosophy-left {
+    margin-bottom: 1em;
+  }
+
+  .security {
+    display: block;
+  }
+
+  .security-left {
+    text-align: center;
+  }
+
+  .security-right > div {
+    width: 70vw;
+  }
 }
