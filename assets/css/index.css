@@ -206,3 +206,69 @@
 .wallet-right img {
   margin: 1em;
 }
+
+.security {
+  padding: 50px 50px;
+  display: flex;
+  gap: 2.5rem;
+  background: rgba(197, 108, 172, 0.2);
+}
+
+.security > * { flex: 1;}
+
+.security-left img {
+  margin-bottom: 1em;
+}
+
+.security-left h5 {
+  font-family: 'Circular Std';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 42px;
+  line-height: 55px;
+  color: #000000;
+  margin-bottom: 1em;
+}
+
+.security-left p {
+  font-family: 'Circular Std';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 23px;
+  color: #000000;
+}
+
+.security-right {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.security-right > div {
+  background: #FFFFFF;
+  padding: 1em;
+  margin: 1em;
+  border-radius: 5px;
+  display: flex;
+  flex-wrap: wrap;
+  width: 20vw;
+}
+
+.security-right h6 {
+  font-family: 'Circular Std';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 28px;
+  color: #000000;
+  margin-bottom: 0.5em;
+}
+
+.security-right p {
+  font-family: 'Circular Std';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: #686868;
+}
