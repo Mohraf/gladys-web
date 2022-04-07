@@ -130,3 +130,31 @@
   font-size: 16px;
   line-height: 20px;
 }
+
+
+@media (max-width: 960px) {
+  .about {
+    height: 80vh;
+  }
+
+  .team h1, p {
+    padding: 0 30px;
+  }
+
+  .join {
+    display: block;
+    text-align: center;
+  }
+}
+
+@media (max-width: 530px) {
+  .about {
+    height: 100vh;
+  }
+}
+
+@media (max-width: 440px) {
+  .about {
+    height: 110vh;
+  }
+}

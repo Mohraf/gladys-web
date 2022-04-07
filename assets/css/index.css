@@ -321,6 +321,10 @@
     display: none;
   }
 
+  .home {
+    height: 80vh;
+  }
+
   .philosophy {
     display: block;
   }
