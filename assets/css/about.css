@@ -71,3 +71,32 @@
 .up img {
   width: 250px;
 }
+
+.investors {
+  background: rgba(220, 230, 255, 0.25);
+  text-align: center;
+  padding: 50px 50px;
+}
+
+.investors h1 {
+  font-family: 'Circular Std';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 42px;
+  line-height: 55px;
+  color: #000000;
+  margin-bottom: 1em;
+}
+
+.investors p {
+  font-family: 'Circular Std';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  color: #000000;
+}
+
+.investors img {
+  margin: 2em;
+}
