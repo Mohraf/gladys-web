@@ -9,12 +9,8 @@
 
 .landing {
   background: linear-gradient(180deg, rgba(53, 67, 219, 0.3) 0%, rgba(250, 93, 127, 0.3) 100%);  
-  height: 65vh;
+  height: 100vh;
   font-family: Circular Std;
-}
-
-.home {
-  background: #F4F7FF;
 }
 
 .landing-content {
@@ -106,9 +102,9 @@
 }
 
 /* Checkbox hack */
-input[type=checkbox] {
+input[type=checkbox]{
   display: none;
-}
+} 
 
 .btn {
   border-radius: 5px;
@@ -270,6 +266,9 @@ input[type=checkbox] {
   }
 }
 
+.hidden-menu {
+  display: block;
+}
 
 @media (max-width: 768px) {
   .menu {
@@ -278,6 +277,17 @@ input[type=checkbox] {
     left: 0;
     text-align: center;
     padding: 16px 0;
+    position: absolute;
+  }
+
+  .hidden-menu {
+    display: none;
+    position: absolute;
+    right: 0;
+    left: 0;
+    text-align: center;
+    padding: 16px 0;
+    position: absolute;
   }
 
   .access {
@@ -292,7 +302,7 @@ input[type=checkbox] {
     display: inline-block;
   }
 
-  input[type=checkbox]:checked ~ .menu{
+  input[type=checkbox]:checked ~ .hidden-menu{
     display: block;
   }
 

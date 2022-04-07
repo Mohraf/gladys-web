@@ -1,6 +1,12 @@
 @import url(//fonts.cdnfonts.com/css/poppins);
 @import url(//fonts.cdnfonts.com/css/circular-std);
 
+
+.home {
+  background: #F4F7FF;
+  height: 70vh;
+}
+
 .landing-content h3 {
   font-weight: 400;
   font-size: 64px;
@@ -305,6 +311,10 @@
     display: flex;
     justify-content: space-around;
   }
+  
+  .home {
+    height: 80vh;
+  }
 
 }
 
@@ -322,10 +332,6 @@
 @media (max-width: 530px) {
   .wallet-left{
     display: none;
-  }
-
-  .home {
-    height: 80vh;
   }
 
   .philosophy {
