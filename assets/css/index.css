@@ -308,11 +308,14 @@
 
 }
 
-@media (max-width: 690px) {
+@media (max-width: 768px) {
   .everyone-bottom {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+  }
+  .home {
+    height: 80vh;
   }
 }
 
@@ -343,5 +346,11 @@
 
   .security-right > div {
     width: 70vw;
+  }
+}
+
+@media (max-width: 420px) {
+  .home {
+    height: 100vh;
   }
 }
