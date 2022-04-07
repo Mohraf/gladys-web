@@ -160,3 +160,49 @@
   text-align: center;
   padding: 5em 0;
 }
+
+.wallet {
+  padding: 50px 50px;
+  display: flex;
+  gap: 5rem;
+}
+
+.wallet > * { flex: 1;}
+
+.wallet-right {
+  padding: 0 2em;
+}
+
+.wallet-right h1 {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 22px;
+  color: #847C7C;
+  margin-bottom: 1em;
+}
+
+.wallet-right h5 {
+  font-family: 'Circular Std';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 42px;
+  line-height: 55px;
+  color: #000000;
+  margin-bottom: 1em;
+}
+
+.wallet-right p {
+  font-family: 'Circular Std';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 23px;
+  color: #000000;
+  margin-bottom: 1em;
+}
+
+.wallet-right img {
+  margin: 1em;
+}
