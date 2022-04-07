@@ -1,0 +1,27 @@
+@import url(//fonts.cdnfonts.com/css/poppins);
+@import url(//fonts.cdnfonts.com/css/circular-std);
+
+.about {
+  background: #FFFFFF;
+  text-align: center;
+}
+
+.landing-content h2 {
+  font-family: 'Circular Std';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 60px;
+  color: #FA5D7F;
+  margin-bottom: 3em;
+}
+
+.landing-content h6 {
+  font-family: 'Circular Std';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 27px;
+  text-align: center;
+  color: #000000;
+}
