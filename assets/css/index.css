@@ -1,0 +1,59 @@
+@import url(//fonts.cdnfonts.com/css/poppins);
+@import url(//fonts.cdnfonts.com/css/circular-std);
+
+
+.everyone {
+  padding: 50px 50px;
+}
+
+.everyone-top {
+
+}
+
+.everyone-bottom {
+  display: flex;
+  justify-content: space-between;
+}
+
+.everyone-bottom > div {
+  margin: 1.5em;
+}
+
+.icon-container {
+  background: rgba(53, 67, 219, 0.25);
+  border-radius: 5px;
+  /* padding: 10px; */
+  height: 12em;
+  width: 12em;
+  margin-bottom: 1em;
+}
+
+.icon-container img {
+  padding: 1em 1em;
+  height: 10em;
+  width: 10em;
+}
+
+.everyone-bottom > div > h5 {
+  font-family: Circular Std;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 28px;
+  margin-bottom: 1em;
+}
+
+.everyone-bottom > div > p {
+  font-family: Circular Std;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  margin-bottom: 1.5em;
+}
+
+.everyone-bottom > div > a:link {
+  text-decoration: none;
+  color: #4064FA;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18px;
+}
