@@ -161,7 +161,7 @@
 .payments-left > div {
   display: flex;
   justify-content: space-between;
-
+  font-family: 'Circular Std';
 }
 
 .payments-left > div li {
