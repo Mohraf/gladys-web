@@ -271,6 +271,20 @@ input[type=checkbox]{
   display: block;
 }
 
+@media (min-width: 819px) and (max-width: 913px) {
+  .landing {
+    height: 50vh;
+  }
+
+  .img-container {
+    padding-top: 0;
+  }
+
+  .section {
+    display: block;
+  }
+}
+
 @media (max-width: 768px) {
   .menu {
     display: none;
@@ -395,4 +409,16 @@ input[type=checkbox]{
   .landing {
     height: 140vh;
   }
+}
+
+@media (max-width: 280px) {
+ .navbar {
+   padding: 20px 0;
+ }
+
+ .menu-bar {
+   padding: 0 30px;
+ }
+
+ 
 }

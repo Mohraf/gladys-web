@@ -150,6 +150,12 @@
   }
 }
 
+@media (min-width: 819px) and (max-width: 913px) {
+  .about {
+    height: 45vh;
+  }
+}
+
 @media (min-width: 530px) and (max-width: 690px)  {
   .about {
     height: 100vh;
@@ -186,5 +192,26 @@
 @media (max-width: 389px) {
   .about {
     height: 130vh;
+  }
+}
+
+@media (max-width: 280px) {
+  .about {
+    height: 105vh;
+  }
+
+  .investors img {
+    width: 130px;
+    /* height: 45px; */
+  }
+
+  .landing-content h2 {
+    font-family: 'Circular Std';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 30px;
+    color: #FA5D7F;
+    margin-bottom: 0.5em;
   }
 }
