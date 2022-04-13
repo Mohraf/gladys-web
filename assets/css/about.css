@@ -215,3 +215,9 @@
     margin-bottom: 0.5em;
   }
 }
+
+@media (min-width: 1280px) {
+  .about {
+    height: 65vh;
+  }
+}

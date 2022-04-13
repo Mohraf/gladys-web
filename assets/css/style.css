@@ -429,3 +429,9 @@ input[type=checkbox]{
    margin: 0;
  }
 }
+
+@media (min-width: 1280px) {
+  .landing {
+    height: 65vh;
+  }
+}
