@@ -363,8 +363,88 @@
   }
 }
 
-@media (max-width: 420px) {
+@media (max-width: 440px) {
+  .home {
+    height: 85vh;
+  }
+
+  .payments-left > div {
+    display: block;
+  }
+}
+
+@media (max-width: 400px) {
   .home {
     height: 100vh;
+  }
+}
+
+@media (max-width: 389px) {
+  .home {
+    height: 110vh;
+  }
+
+  .landing-content {
+    margin: 0;
+  }
+}
+
+@media (max-width: 280px) {
+  .home {
+    height: 100vh;
+  }
+
+  .landing-content {
+    text-align: center;
+  }
+
+  .landing-content h3 {
+    font-size: 40px;
+    line-height: 50px;
+  }
+
+  .download-icons {
+    display: block;
+  }
+
+  .download-icons img {
+    width: 125px;
+    height: 40px;
+  }
+
+  .everyone-bottom > div {
+    margin: 0;
+  }
+
+  .wallet-right img {
+    width: 100px;
+  }
+
+  .security-right > div {
+    margin: 1em 0;
+  }
+
+  .security-left h5 {
+    font-size: 24px;
+    line-height: 30px;
+  }
+
+  .security-left p {
+    font-size: 16px;
+    line-height: 21px;
+  }
+
+  .wallet-right h5 {
+    font-size: 24px;
+    line-height: 30px;
+  }
+
+  .wallet-right p {
+    font-size: 16px;
+    line-height: 21px;
+  }
+
+  .wallet-right {
+    padding: 0;
   }
 }
