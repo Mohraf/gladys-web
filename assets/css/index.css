@@ -4,7 +4,7 @@
 
 .home {
   background: #F4F7FF;
-  height: 70vh;
+  height: 100vh;
 }
 
 .landing-content h3 {
@@ -77,6 +77,8 @@
   display: flex;
   justify-content: space-between;
 }
+
+.philosophy > * { flex: 1; }
 
 .philosophy-left h1 {
   font-family: 'Poppins';
@@ -326,6 +328,12 @@
   }
   .home {
     height: 80vh;
+  }
+}
+
+@media (min-width: 530px) and (max-width: 690px)  {
+  .home {
+    height: 100vh;
   }
 }
 

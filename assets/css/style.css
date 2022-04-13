@@ -14,8 +14,8 @@
 }
 
 .landing-content {
-  padding: 50px 70px;
-  margin: 3em 0;
+  padding: 30px 70px;
+  margin: 0.3em 0;
 }
 
 .landing-content h1 {
@@ -23,20 +23,20 @@
   font-size: 64px;
   line-height: 125%;
   color: #3543DB;
-  margin-bottom: 1em;
+  margin-bottom: 0.5em;
 }
 
 .landing-content p {
   font-weight: 400;
   font-size: 18px;
   line-height: 23px;
-  margin-bottom: 2em;
+  margin-bottom: 1em;
 }
 
 .download-icons {
   display: flex;
   gap: 1em;
-  margin: 4em 0;
+  margin: 2em 0;
 }
 
 .playstore {
@@ -125,7 +125,8 @@ input[type=checkbox]{
 .section {
   display: flex;
   flex-wrap: wrap;
-  gap: 5rem;
+  justify-content: space-between;
+  gap: 2rem;
   /* height: 25rem; */
   padding: 50px 50px;
 }
@@ -137,14 +138,14 @@ input[type=checkbox]{
 }
 
 .content {
-  padding: 5rem 2rem;
+  padding: 5rem 0;
 }
 
 .img-container {
   display: flex;
   align-items: center;
   justify-content: center;
-  padding-top: 2.5rem;
+  padding-top: 5rem;
 }
 
 .section-head {
@@ -205,7 +206,7 @@ input[type=checkbox]{
   /* margin: 30px 40px; */
   display: flex;
   justify-content: space-around;
-  height: 30vh;
+  height: 50vh;
 }
 
 .footer-top img {
@@ -336,6 +337,20 @@ input[type=checkbox]{
 
   .copyright p {
     text-align: center;
+  }
+}
+
+@media (min-width: 530px) and (max-width: 690px)  {
+  .section-item {
+    padding: 0;
+  }
+
+  .section {
+    display: block;
+  }
+
+  .img-container {
+    padding-top: 0;
   }
 }
 
