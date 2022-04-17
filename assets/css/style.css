@@ -211,7 +211,7 @@ input[type=checkbox]{
   /* margin: 30px 40px; */
   display: flex;
   justify-content: space-around;
-  height: 50vh;
+  height: 35vh;
 }
 
 .footer-top img {
@@ -231,7 +231,7 @@ input[type=checkbox]{
 
 .footer-bottom {
   display: flex;
-  gap: 33em;
+  gap: 14em;
   padding: 2em;
   margin: 0 50px;
 }
@@ -433,5 +433,9 @@ input[type=checkbox]{
 @media (min-width: 1281px) {
   .landing {
     height: 65vh;
+  }
+
+  .footer-bottom {
+    gap: 33em;
   }
 }
