@@ -36,15 +36,15 @@
   background: rgba(53, 67, 219, 0.25);
   border-radius: 5px;
   /* padding: 10px; */
-  height: 12em;
-  width: 12em;
+  height: 6em;
+  width: 6em;
   margin-bottom: 1em;
 }
 
 .icon-container img {
   padding: 1em 1em;
-  height: 10em;
-  width: 10em;
+  height: 5em;
+  width: 5em;
 }
 
 .everyone-bottom > div > h5 {
@@ -171,6 +171,11 @@
   margin-bottom: 1.5em;
 }
 
+.payments-left > div img {
+  background-color: pink;
+  padding: 0.2em;
+}
+
 .payments-right {
   text-align: center;
   padding: 5em 0;
@@ -179,7 +184,7 @@
 .wallet {
   padding: 50px 50px;
   display: flex;
-  gap: 5rem;
+  gap: 1rem;
 }
 
 .wallet > * { flex: 1;}
@@ -219,8 +224,8 @@
 }
 
 .wallet-right img {
-  margin: 1em;
-  height: 50px;
+  margin: 1em 0.25em;
+  /* height: 50px; */
 }
 
 .security {
@@ -256,8 +261,10 @@
 }
 
 .security-right {
-  display: flex;
-  flex-wrap: wrap;
+  /* display: flex; */
+  /* flex-wrap: wrap; */
+  display: grid;
+  grid-template-columns: auto auto;
 }
 
 .security-right > div {
@@ -265,9 +272,10 @@
   padding: 1em;
   margin: 2em;
   border-radius: 5px;
-  display: flex;
-  flex-wrap: wrap;
-  width: 15vw;
+  /* display: flex; */
+  /* flex-wrap: wrap; */
+  width: 20vw;
+  display: inline-grid;
 }
 
 .security-right h6 {
@@ -291,7 +299,7 @@
 
 @media (max-width: 1030px) {
   .security-right > div {
-    width: 40vw;
+    width: 22vw;
   }
 }
 
@@ -358,8 +366,14 @@
     text-align: center;
   }
 
+  .security-right {
+    display: flex;
+    flex-direction: column;
+  }
+
   .security-right > div {
-    width: 70vw;
+    display: block;
+    width: auto;
   }
 }
 
@@ -451,6 +465,6 @@
 
 @media (min-width: 1281px) {
   .home {
-    height: 65vh;
+    height: 100vh;
   }
 }
